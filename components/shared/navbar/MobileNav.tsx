@@ -79,7 +79,7 @@ const MobileNav = () => {
 						Dev <span className="text-primary-500">Overflow</span>
 					</p>
 				</Link>
-				<div>
+				<div className="flex flex-col">
 					<SheetClose asChild>
 						<NavContent />
 					</SheetClose>
