@@ -19,6 +19,7 @@ import { Badge } from '../ui/badge';
 import Image from 'next/image';
 import { QuestionsSchema } from '@/lib/validation';
 import router from 'next/router';
+import { createQuestion } from '@/lib/actions/question.action';
 
 const type: any = 'create';
 
@@ -39,8 +40,7 @@ const Question = () => {
 		setIsSubmitting(true);
 
 		try {
-			// make an async call to your API -> create a question
-			// contain all form data
+			await createQuestion({});
 
 			router.push('/');
 		} catch (error) {
