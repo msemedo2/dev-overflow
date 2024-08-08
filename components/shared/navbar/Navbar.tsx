@@ -4,8 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import { UserButton, SignedIn } from '@clerk/nextjs';
-
-import GlobalSearch from '../Search/GlobalSearch';
+import GlobalSearch from '../search/GlobalSearch';
 import Theme from './Theme';
 import MobileNav from './MobileNav';
 
