@@ -2,10 +2,10 @@ import QuestionCard from '@/components/Cards/QuestionCard';
 import HomeFilters from '@/components/Home/HomeFilters';
 import Filter from '@/components/shared/Filter';
 import NoResult from '@/components/shared/NoResult';
-import LocalSearchbar from '@/components/shared/Search/LocalSearchBar';
 import { Button } from '@/components/ui/button';
 import { HomePageFilters } from '@/constants/filtes';
 import { getQuestions } from '@/lib/actions/question.action';
+import LocalSearchbar from '@/components/shared/Search/LocalSearchBar';
 import Link from 'next/link';
 
 export default async function Home() {
